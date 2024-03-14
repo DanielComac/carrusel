@@ -2,12 +2,28 @@
   "name": "carrusel",
   "private": false,
   "version": "0.0.0",
+  "main": "dist/my-carousel-lib.js",
   "scripts": {
     "dev": "vite",
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server --open",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielComac/carrusel.git"
+  },
+  "keywords": ["carrusel", "react", "imagen", "librería"],
+  "author": "DanielComac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielComac/carrusel.git" 
+  },
+  "homepage": "https://github.com/DanielComac/carrusel.git", 
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "dependencies": {
     "react": "^18.2.0",
