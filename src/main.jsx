@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Carousel from './Carousel';
+import Carouselx from './Carouselx.jsx';
 import './App.css'; 
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="app">
       <h1 className='title'>Carrusel de imágenes</h1>
-      <Carousel images={images} />
+      <Carouselx images={images} />
     </div>
   );
 };

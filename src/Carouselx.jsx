@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './App.css'
 
-const Carousel = ({ images }) => {
+const Carouselx = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
@@ -21,4 +21,4 @@ const Carousel = ({ images }) => {
   );
 };
 
-export default Carousel;
+export default Carouselx;
